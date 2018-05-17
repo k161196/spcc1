@@ -1,0 +1,6 @@
+SUM         &A
+ST          1,#0
+MEND        
+SUMA        &Z
+ST          ,#0
+MEND        

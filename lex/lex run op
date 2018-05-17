@@ -1,0 +1,40 @@
+sudo apt-get install flex
+code@code-Aspire-A515-51G:~/Pictures/code/lex$ lex lex.l
+code@code-Aspire-A515-51G:~/Pictures/code/lex$ gcc lex.yy.c -lfl
+code@code-Aspire-A515-51G:~/Pictures/code/lex$ ./a.out < lex.c
+Special Chars :#
+Identifiers :include
+ <Identifiers :stdio
+Punctuation Chars :. 
+Identifiers :h
+>
+Keyword :int
+ Keyword :main
+Special Chars :()
+
+{
+  Keyword :int
+ Identifiers :a
+Punctuation Chars :, 
+Identifiers :b
+;
+Keyword :int
+ Identifiers :c
+=Identifiers :a
+Operators :+
+Identifiers :b
+;
+   Identifiers :printf
+Special Chars :(
+Punctuation Chars :" 
+Identifiers :Hello
+Punctuation Chars :, 
+ Identifiers :World
+Special Chars :!
+Punctuation Chars :" 
+Special Chars :)
+;
+   Keyword :return
+ Constants :0
+;
+}
